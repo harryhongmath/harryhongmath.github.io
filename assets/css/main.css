@@ -153,7 +153,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px #000000;
+		border-bottom: dotted 1px #009fe3;
 		text-decoration: none;
 		color: inherit;
 	}
@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #000000;
+			border-bottom: solid 1px #009fe3;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -284,7 +284,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #000000;
+		border-bottom: solid 1px #009fe3;
 		margin: 2.75rem 0;
 	}
 
@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.png");
+			background-color: #ffffff;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1274,9 +1274,9 @@ input, select, textarea {
 				position: absolute;
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
-				width: 1px;
+				width: 2px;
 				height: calc(3.5rem + 1px);
-				background: #000000;
+				background: #009fe3;
 			}
 
 		#header > :first-child {
@@ -1291,7 +1291,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #000000;
+			border: solid 2px #009fe3;
 			border-radius: 100%;
 		}
 
@@ -1301,9 +1301,9 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #000000;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-color: #009fe3;
+			border-top-width: 2px;
+			border-bottom-width: 2px;
 			max-width: 100%;
 		}
 
@@ -1340,13 +1340,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #000000;
+			border: solid 2px #009fe3;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #000000;
+				border-left: solid 1px #009fe3;
 			}
 
 				#header nav ul li:first-child {
@@ -1366,11 +1366,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: #000000;
+						background-color: #009fe3;
 					}
 
 					#header nav ul li a:active {
-						background-color: #000000;
+						background-color: #ffffff;
 					}
 
 		#header nav.use-middle:after {
@@ -1379,9 +1379,9 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
+			width: 2px;
 			height: 100%;
-			background: #000000;
+			background: #009fe3;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1478,7 +1478,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #000000;
+						border-top: solid 2px #009fe3;
 					}
 
 						#header nav ul li:first-child {
@@ -1583,13 +1583,13 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23009fe3%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: #009fe3;
 				}
 
 				#main article .close:active:before {
